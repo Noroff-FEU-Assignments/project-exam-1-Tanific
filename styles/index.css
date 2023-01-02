@@ -14,7 +14,6 @@ body {
     margin: 0;
     padding: 0;
     grid-template-rows: 1fr 1fr 1.5fr;
-    overflow: hidden;
 }
 
 
@@ -61,13 +60,16 @@ main {
 
 h1 {
     font-size: 87px;
-    margin: 100px 0px 0px 60px;
+    color:white;
+    margin: 0px;
 }
+
 
 
 .discoverocean {
     margin-top: 130px;
 }
+
 
 
 h2 {
@@ -94,43 +96,51 @@ h2 svg {
 
 
 .bottom_container_main {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background: black;
     opacity: 72%;
-    justify-content: space-evenly;
-    padding-bottom: 80px;
+}
+
+
+.homepage_bottom_right {
+    min-width: 500px;
+    margin: 20px auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
 }
 
 
 .homepage_bottom_left {
     display: flex;
     flex-direction: column;
+    margin: 10px auto;
 }
 
 
 .homepage_bottom_left a {
-    margin-left: 120px;
     font-size: 35px;
     color:#21E4FF;
+    text-align: center;
 }
 
 
 .homepage_bottom_left ul {
     font-size: 23px;
-    margin: 30px;
+    margin: 0px;
     padding: 0px;
-    width: 391px;
+
 }
 
 
 .homepage_bottom_left li {
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
     font-weight: bolder;
     line-height: 34px;
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr auto;
+    color:white;
 }
 
 
@@ -147,6 +157,6 @@ h2 svg {
 
 .carousel {
     background-color: white;
-    width: 1000px;
-    height: 313px;
+    max-width: 1000px;
+    max-width: 313px;
 }
