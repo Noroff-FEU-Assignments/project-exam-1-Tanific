@@ -6,56 +6,13 @@
 
 body {
     display: grid;
-    font-family: "Poppins", sans-serif;
     background: no-repeat center/100% url("../images/homepageimage.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
-    margin: 0;
-    padding: 0;
     grid-template-rows: 1fr 1fr 1.5fr;
 }
 
-
-.logo img {
-    width: 200px;
-    height: 100px;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-.navigation  {
-    margin: 0px;
-    display: flex;
-    gap: 120px;
-    margin-right: 30px;
-    font-size: 40px;
-}
-
-
-.navigation p {
-    color: white;
-}
-
-
-.navigation a {
-    text-decoration: none;
-}
-
-
-.active-nav {
-    text-decoration: underline!important;
-	text-decoration-color: #21E4FF!important;
-    text-decoration-thickness: 4px!important;
-}
 
 
 h1 {

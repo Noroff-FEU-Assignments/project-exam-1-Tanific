@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#jelly {
+    position: absolute;
+    left: 70%;
+    width: 400px;
+}
+
+.posts_main-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+
+.post {
+    width: 300px;
+    margin: 30px;
+}
+
+.post img {
+    max-width: 100px;
+    width: 100%
+}
