@@ -13,10 +13,7 @@ async function getPosts() {
 
         container.innerHTML += `
         <a href="post-specific.html?id=${posts[i].id}"<div class=post"><h2>${posts[i].title.rendered}</h2><p>${posts[i].excerpt.rendered}
-        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>
-        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>
-        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>        <img src="${posts[i]._embedded['wp:featuredmedia']['0'].source_url}/>
-        </p>
+        <img src="${posts[i]['_embedded']['wp:featuredmedia'][0][source_url]}/>
         </div></a>`
     }
 }
