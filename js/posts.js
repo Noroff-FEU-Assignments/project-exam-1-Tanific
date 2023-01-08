@@ -5,16 +5,17 @@ const container = document.querySelector(".posts_main-container");
 async function getPosts() {
 
     const response = await fetch(url);
-    const posts = await response.json();
+    const json = await response.json();
 
-    console.log(posts)
+    console.log(json)
 
-    for(let i = 0; i < posts.length; i++) {
+    for(let i = 0; i < json.length; i++) {
 
         container.innerHTML += `
-        <a href="post-specific.html?id=${posts[i].id}"<div class=post"><h2>${posts[i].title.rendered}</h2><p>${posts[i].excerpt.rendered}
-        <img src="${posts[i]['_embedded']['wp:featuredmedia'][0][source_url]}/>
+        <a href="post-specific.html?id=${json[i].id}"<div class=post"><h2>${json[i].title.rendered}</h2><p>${json[i].excerpt.rendered}
+        <img src="${json[i]._embedded["wp:featuredmedia"]["0"].source_url}/>
         </div></a>`
+        
     }
 }
 
