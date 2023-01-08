@@ -13,11 +13,12 @@ h1 {
     text-align: center;
 }
 
+/*
 #jelly {
     position: absolute;
     left: 70%;
     width: 400px;
-}
+} */
 
 .posts_main-container {
     position: relative;
@@ -32,7 +33,8 @@ h1 {
     margin: 30px;
 }
 
-.post img {
-    max-width: 100px;
-    width: 100%
+
+a img {
+    width:30px;
+    height:40px;
 }
