@@ -19,7 +19,7 @@ h1 {
 
 .jelly, .jelly2 {
     position: absolute;
-    width: 400px;
+    width: 700px;
     margin: 20px;
 }
 
@@ -32,7 +32,9 @@ h1 {
 .jelly2 {
     left: 80%;
     bottom: 70px;
+    transform: rotate(180deg);
 }
+
 
 
 .posts_main-container {
