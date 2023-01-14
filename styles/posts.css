@@ -17,11 +17,20 @@ h1 {
 }
 
 
-.jelly {
+.jelly, .jelly2 {
     position: absolute;
     width: 400px;
     margin: 20px;
+
+}
+
+.jelly {
     bottom: 50%;
+}
+
+
+.jelly1 {
+    right: 80%;
 }
 
 
