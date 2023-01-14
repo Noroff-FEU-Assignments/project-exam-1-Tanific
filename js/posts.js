@@ -26,14 +26,9 @@ async function getPosts() {
 
 getPosts();
 
-
-
-let jelly = document.getElementById("jelly");
-
+/* parallax scroll jellyfish */
 window.addEventListener('scroll', function() {
-    var value = window.scrollY;
-
-    jelly.style.top = value * 0.8 + 'px';
-
+    const distance = window.scrollY;
+    document.querySelector(".jelly").style.transform = `translateY(${distance * -0.3}px)`;
 }) 
 

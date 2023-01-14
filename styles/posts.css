@@ -5,6 +5,7 @@
 
 
 body {
+    position: relative;
     background: linear-gradient(135deg, #002088, #000e1b, #000000);
     min-height: 100vh;
 }
@@ -15,11 +16,12 @@ h1 {
 }
 
 
-img#jelly {
+.jelly {
     position: absolute;
     width: 400px;
     margin: 20px;
     left: 80%;
+    bottom: 50%;
 }
 
 
@@ -29,9 +31,6 @@ img#jelly {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    animation: fadeIn 1.5s ease-in-out;
-
-
 }
 
 
