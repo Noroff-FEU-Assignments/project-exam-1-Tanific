@@ -3,8 +3,9 @@
     src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 
+
 body {
-    background-color: black;
+    background: linear-gradient(135deg, #002088, #000e1b, #000000);
     min-height: 100vh;
 }
 
@@ -13,28 +14,54 @@ h1 {
     text-align: center;
 }
 
-/*
-#jelly {
+
+img#jelly {
     position: absolute;
-    left: 70%;
     width: 400px;
-} */
+    margin: 20px;
+    left: 80%;
+}
+
 
 .posts_main-container {
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    animation: fadeIn 1.5s ease-in-out;
+
+
 }
 
 
-.post {
-    width: 300px;
-    margin: 30px;
+.posts_main-container img {
+    height: 426px;
+    width: 703px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 
-a img {
-    width:30px;
-    height:40px;
+.posts_main-container a {
+    margin: 40px;
+    position: relative;
+}
+
+
+#post {
+    text-align: center;
+    color: white;
+}
+
+ 
+#post p {
+    position: absolute;
+    bottom: 125px;
+}
+
+
+#post h2 {
+    position: absolute;
+    bottom: 230px;
 }
