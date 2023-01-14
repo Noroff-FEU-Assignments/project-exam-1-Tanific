@@ -29,8 +29,8 @@ getPosts();
 /* parallax scroll jellyfish */
 window.addEventListener('scroll', function() {
     const distance = window.scrollY;
-    document.querySelector(".jelly").style.transform = `translateY(${distance * -0.9}px)`;
-    document.querySelector(".jelly2").style.transform = `translateX(${distance * -0.9}px)`;
+    document.querySelector(".jelly").style.transform = `translateY(${distance * -0.5}px)`;
+    document.querySelector(".jelly2").style.transform = `translateY(${distance * -0.5}px)`;
 
 }) 
 
