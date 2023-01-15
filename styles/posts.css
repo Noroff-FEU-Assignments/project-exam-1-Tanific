@@ -133,7 +133,7 @@ h1 {
 
 
 
-#view-more {
+.loadMore {
     display: flex;
     width: 170px;
     justify-content: center;
@@ -142,11 +142,11 @@ h1 {
     color: white;
     background: #21E4FF;
     border: none;
-    font-weight: bolder;
     cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease-out;
 }
 
-
-.imageswrapper {
-    overflow: hidden;
+.loadMore:hover {
+    background: #19b9ce;
 }
