@@ -6,9 +6,11 @@
 
 body {
     position: relative;
-    background: linear-gradient(135deg, #000f41, #000305, #000000);
+    background: linear-gradient(160deg, #000f41, #000305, #000000);
     min-height: 100vh;
 }
+
+
 
 
 h1 {
