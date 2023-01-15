@@ -1,4 +1,4 @@
-const url = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=12";
+const url = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=10"; /*se her*/
 const container = document.querySelector(".posts_main-container");
 
 
@@ -14,13 +14,12 @@ async function getPosts() {
         container.innerHTML += `
         <a href="post-specific.html?id=${json[i].id}">
         <div id="post">
-                <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
-                <h2>${json[i].title.rendered}</h2>
-                <p>${json[i].excerpt.rendered}</p>
+            <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
+            <h2>${json[i].title.rendered}</h2>
+            <p>${json[i].excerpt.rendered}</p>
         </div>
         </a>
         `
-        
     }
 }
 
