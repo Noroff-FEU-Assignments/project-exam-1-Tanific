@@ -1,4 +1,7 @@
-const url = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=10"; /*se her*/
+
+
+/* api call */
+const url = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=10"
 const container = document.querySelector(".posts_main-container");
 
 
@@ -30,6 +33,6 @@ getPosts();
 window.addEventListener('scroll', function() {
     const distance = window.scrollY;
     document.querySelector(".jelly").style.transform = `translateY(${distance * -0.5}px)`;
-    document.querySelector(".jelly2").style.transform = `translateY(${distance * -0.5}px)`;
+    document.querySelector(".jelly2").style.transform = `translateY(${distance * -0.3}px)`;
+    document.querySelector(".jelly3").style.transform = `translateY(${distance * -0.2}px)`;
 }) 
-
