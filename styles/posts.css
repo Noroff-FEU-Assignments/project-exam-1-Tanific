@@ -19,20 +19,19 @@ h1 {
 
 .jelly, .jelly2 {
     position: absolute;
-    width: 700px;
-    margin: 20px;
+    width: 400px;
+    margin: 50px;
 }
 
 
 .jelly {
-    bottom: 60%;
+    bottom: 40%;
 }
 
 
 .jelly2 {
-    left: 80%;
+    left: 75%;
     bottom: 70px;
-    transform: rotate(180deg);
 }
 
 
