@@ -66,10 +66,20 @@ main {
     display: flex;
     font-size: 25px!important;
     align-items: center;
-    margin: 15px 50px 15px 50px;
+    margin: 25px 50px 0px 50px;
 }
 
 
 .activeBreadcrumb {
     font-size: 25px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-self: end;
+    color: white;
+    background-color: black;
 }

@@ -18,7 +18,7 @@ h1 {
     font-size: 87px;
     color:white;
     margin: 10px;
-    margin-left:20px
+    margin-left:125px
 }
 
 
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     color: #21E4FF;
-    margin-left: 160px;
+    margin-left: 190px;
     margin-top: 0px;
     font-size: 49px;
 }
@@ -70,7 +70,9 @@ h2 svg {
 .homepage_bottom_left {
     display: flex;
     flex-direction: column;
-    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -102,17 +104,5 @@ h2 svg {
 .homepage_bottom_left li img {
     width: 60px;
     margin: 7px 30px 0 0;
-}
-
-
-.homepage_bottom_left li:last-child {
-    margin-bottom: 0px;
-}
-
-
-.carousel {
-    background-color: white;
-    max-width: 1000px;
-    max-width: 313px;
 }
 

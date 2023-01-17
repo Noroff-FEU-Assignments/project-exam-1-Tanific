@@ -33,11 +33,13 @@ body {
 
 h1 {
     font-size: 70px;
+    color: white;
 }
 
 
-p {
+.post-content p {
     font-size: 20px;
+    color: white;
 }
 
 
@@ -48,5 +50,4 @@ p {
     font-weight: bold;
     text-decoration: underline!important;
 }
-
 
