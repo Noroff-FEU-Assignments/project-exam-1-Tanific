@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.post-content {
+    margin: 50px;
+}
+
+
+.post-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    height: 60vh;
+}
+
+
+
+.post-info img {
+    width: 615px;
+    height: 449px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 80px;
+    border: 2px solid white;
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+.goback {
+    margin: 50px;
+    color: #21E4FF;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline!important;
+}
+
+
