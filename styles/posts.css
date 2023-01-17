@@ -130,7 +130,6 @@ h1 {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    transition: all .3s ease-out;
 }
 
 .loadMore:hover {

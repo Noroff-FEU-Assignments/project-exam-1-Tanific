@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&family=Raleway:ital,wght@0,100;0,300;0,800;1,200&display=swap" rel="stylesheet"> 
+
     <title>Home - Discover our ocean</title>
 </head>
 <body>
-  <div>
+  <div class="page-container">
     <main>
         <div class="logo">
             <a href="index.html"><img src="images/logoocean.png"></a>   
@@ -22,9 +23,9 @@
               <a href="about.html"><p>About</p></a>
               <a href="contact.html"><p>Contact</p></a>
         </div>
-    </div>
     </main>
-      <div>
+    <section class="content-container">
+      <div class="discover">
         <h1>Discover our ocean</h1>
         <a href="posts.html" class="posts"><h2>Start your journey <svg xmlns="http://www.w3.org/2000/svg" width="71.885" height="15.484" viewBox="0 0 71.885 15.484">
             <path id="Icon_awesome-long-arrow-alt-right" data-name="Icon awesome-long-arrow-alt-right" d="M22.074,15.188H-40.178c-.466,0,0,3.54,0,4.006h0c0,.466-.466,1.619,0,1.619H22.074v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(40.385 -10.258)" fill="#21e4ff"/>
@@ -45,16 +46,19 @@
             </ul>
         </section>
         <div class="homepage_bottom_right">
-          <h2>Recent posts</h2>
-          <section class="carousel-container">
-
-            <script src="js/index.js"></script>
-
-          </section>
+          <a href="posts.html" class="cta">Recent posts</a>  
+        </div>
         </div>
       </div>
-          <footer> 
-            &copy; Tonje Stensen - Project Exam 
-          </footer>
+    </section>
+      <section class="carousel-main-container">
+          <div class="carousel-content-container">
+          </div>
+        </section>
+      <script src="js/index.js"></script>
+    <footer> 
+        &copy; Tonje Stensen - Project Exam 
+    </footer>
 </body>
 </html>
+

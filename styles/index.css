@@ -14,6 +14,11 @@ body {
 }
 
 
+.page-container {
+    height: 100vh;
+}
+
+
 h1 {
     font-size: 87px;
     color:white;
@@ -53,18 +58,7 @@ h2 svg {
 .bottom_container_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: black;
-    opacity: 72%;
-}
-
-
-.homepage_bottom_right {
-    min-width: 500px;
-    margin: 20px auto;
-    align-content: center;
-    justify-content: center;
-    display: flex;
-}
+    background-color: rgba(0,0,0,.73)}
 
 
 .homepage_bottom_left {
@@ -72,7 +66,6 @@ h2 svg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -106,3 +99,23 @@ h2 svg {
     margin: 7px 30px 0 0;
 }
 
+
+.homepage_bottom_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.content-container {
+    display: grid;
+    height: 85vh;
+    grid-template-rows: 1fr 1fr;
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,5 +1,5 @@
 const carouselButton = document.querySelectorAll(".carousel-arrow");
-const carouselContainer = document.querySelector(".carousel-container");
+const carouselContainer = document.querySelector(".carousel-main-container");
 
 
 const discoverOceanURL = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed";
