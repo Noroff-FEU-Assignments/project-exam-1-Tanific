@@ -8,6 +8,7 @@ body {
     position: relative;
     background: linear-gradient(250deg, #0f2980, #000305, #000000);
     min-height: 100vh;
+    overflow: hidden;
 }
 
 
