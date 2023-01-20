@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/contact.css" rel="stylesheet">
+
+
+    <title>Contact us - Discover our ocean</title>
+</head>
+<body>
+    <div class="page-container">
+        <main>
+            <div class="logo">
+                <a href="index.html"><img src="images/logoocean.png"></a>   
+            </div>
+            <div class="navigation">
+                    <a href="index.html"><p>Home</p></a>
+                    <a href="about.html"><p>About</p></a>
+                    <a href="contact.html" span class="active-nav"><p>Contact</p></a>
+            </div>        
+        </main>
+            </div>
+
+        <section>
+            <form method="POST" id="contact_form_container">
+                <h1>Contact us</h1>
+                <div class="contact-flex">
+                <div class="div1">
+                    <label>
+                        <input name="name" id="name" placeholder="Your name">
+                    </label>
+                    <div class="form-error" id="titleErr">
+                        Your name is required
+                    </div>
+                </div>
+                <div class="div2">
+                    <label>
+                        <input name="email" id="email" placeholder="Your email">
+                    </label>
+                    <div class="form-error" id="titleErr">
+                        A valid email is required
+                    </div>
+                </div>
+                <div class="div3">
+                    <label>
+                        <input name="title" id="title" placeholder="Title of message">
+                    </label>
+                        <div class="form-error" id="titleErr">
+                        Min. 5 characters
+                    </div>
+                </div>
+                <div class="div4">
+                    <label>
+                        <input name="message" id="message" placeholder="Your message">
+                    </label>
+                        <div class="form-error" id="titleErr">
+                        Min. 20 characters
+                    </div>
+                </div>
+            </div>
+
+            </section>
+            <div class="cta">
+                <a href="contact.html"></a>
+            </div>
+</body>
+</html>
