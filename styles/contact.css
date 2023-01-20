@@ -1,8 +1,19 @@
 body {
-    background: no-repeat center/90% url("../images/contactfish.png");
+    background: no-repeat url("../images/contactfish.png");
     background-size: cover;
     height: 100vh;
     overflow: hidden;
+
+}
+
+
+body section {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    justify-content: center;
+    color: white;
+    width: 800px;
 }
 
 
@@ -12,10 +23,11 @@ body {
 
 
 h1 {
-    font-size: 98px;
+    font-size: 90px;
     color: #21E4FF;
     text-align: center;
 }
+
 
 
 input  {
@@ -25,13 +37,48 @@ input  {
 
 .contact-flex {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    justify-content: center;
-    align-items:center;
-    }
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
     .div3 { grid-area: 2 / 1 / 3 / 3; }
     .div4 { grid-area: 3 / 1 / 4 / 3; } 
+
+
+.div1 input, .div2 input, .div3 input, .div4 input {
+    width: 100%;
+    border: 2px solid #21E4FF;
+}
+
+
+
+#contact_form_container {
+    margin-left: 170px;
+}
+
+
+.cta {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.cta a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.goback {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
