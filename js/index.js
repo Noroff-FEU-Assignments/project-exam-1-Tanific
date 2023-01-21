@@ -1,25 +1,23 @@
-const carouselButton = document.querySelectorAll(".carousel-arrow");
-const carouselContainer = document.querySelector(".carousel-main-container");
+const slides = document.querySelector(".posts_main-container");
 
 
-const discoverOceanURL = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed";
+const discoverOceanURL = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=6";
 
 async function getPosts(url) {
     const response = await fetch(url);
     const json = await response.json();
     console.log(json)
 
-    carouselContainer.innerHTML = ``;
+    slides.innerHTML = ``;
 
     for(let i = 0; i < json.length; i++) {
-        const cardImg = json[i]._embedded["wp:featuredmedia"][0].source_url;
-        carouselContainer.innerHTML += `
-        <a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}">
-        <div class="carousel-card" style="background: url(${cardImg})no-repeat center">
-        <div class="card-info">
-        <h3>${json[i].title.rendered}</h3>
-        <p>${json[i].excerpt.rendered}</p>
-        </div>
+        slides.innerHTML += 
+        `<a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}">
+            <div id="post">
+                <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
+                <h2>${json[i].title.rendered}</h2>
+                <p>${json[i].excerpt.rendered}</p>
+            </div>
         </a>`
     }
 }

@@ -38,7 +38,7 @@ loadMoreButton.addEventListener("click", () => {
 });
 
 
-/* parallax scroll jellyfish */
+/* parallax scroll jellyfish and anglerfish */
 window.addEventListener('scroll', function() {
     const distance = window.scrollY;
     document.querySelector(".jelly").style.transform = `translateY(${distance * -0.5}px)`;

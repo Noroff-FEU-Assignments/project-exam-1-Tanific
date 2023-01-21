@@ -10,12 +10,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    grid-template-rows: 1fr 1fr 1.5fr;
-}
-
-
-.page-container {
-    height: 100vh;
 }
 
 
@@ -23,7 +17,7 @@ h1 {
     font-size: 87px;
     color:white;
     margin: 10px;
-    margin-left:125px
+    margin-left: 125px;
 }
 
 
@@ -58,7 +52,11 @@ h2 svg {
 .bottom_container_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgba(0,0,0,.73)}
+    background-color: rgba(0,0,0,.73);
+    height: 373px;
+    border-bottom: 2px solid #21E4FF;
+}
+
 
 
 .homepage_bottom_left {
@@ -110,7 +108,7 @@ h2 svg {
 
 .content-container {
     display: grid;
-    height: 85vh;
+    height: 91vh;
     grid-template-rows: 1fr 1fr;
 }
 
@@ -118,4 +116,72 @@ h2 svg {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+/*carousel*/
+.recent-posts {
+    margin: 0px;
+    color: black;
+    font-weight: 100;
+}
+
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+
+
+.posts_main-container {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    gap: 75px;
+    max-width: 100vw;
+}
+
+
+.posts_main-container img {
+    height: 426px;
+    width: 804px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.posts_main-container a {
+    position: relative;
+    border: 2px solid white;
+}
+
+
+#post {
+    text-align: center;
+    color: white;
+}
+
+ 
+#post p {
+    position: absolute;
+    bottom: 65px;
+    margin-left: 80px;
+    max-width: 500px;
+    text-align: left;
+    font-size: 23px;
+    z-index: 1;
+}
+
+
+#post h2 {
+    position: absolute;
+    bottom: 160px;
+    margin-left: 80px;
+    color: #21E4FF;
+    font-weight: bolder;
+    font-size: 60px;
+    z-index: 1;
 }
