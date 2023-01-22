@@ -4,7 +4,7 @@ const prevButton = document.getElementById("slide-arrow-prev");
 const nextButton = document.getElementById("slide-arrow-next");
 
 
-const discoverOceanURL = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=4";
+const discoverOceanURL = "https://discoverocean.tanific.one/wp-json/wp/v2/posts?_embed&per_page=6";
 
 async function getPosts(url) {
     const response = await fetch(url);
@@ -36,7 +36,6 @@ getPosts(discoverOceanURL);
 
 
 /*Carousel arrows*/
-
 nextButton.addEventListener("click", () => {
   const slideWidth = slides.clientWidth;
   slidesContainer.scrollLeft += slideWidth;
