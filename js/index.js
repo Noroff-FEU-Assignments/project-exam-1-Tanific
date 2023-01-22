@@ -14,7 +14,17 @@ async function getPosts(url) {
     slides.innerHTML = ``;
 
     for(let i = 0; i < json.length; i++) {
-        slides.innerHTML += 
+        slides.innerHTML +=
+        `<li class="slide">
+        <h3><a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}"></a></h3>
+        <div class="img-container">
+            <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
+        </div>
+        <p class="excerpt">${json[i].excerpt.rendered}</p></li>`
+        
+
+
+        /*
         `<div class="slide">
             <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
             <h2>${json[i].title.rendered}</h2>
@@ -23,7 +33,7 @@ async function getPosts(url) {
 
 
 
-        /*`<a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}">
+        `<a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}">
             <div id="post">
                 <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
                 <h2>${json[i].title.rendered}</h2>
