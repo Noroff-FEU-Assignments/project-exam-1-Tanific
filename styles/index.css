@@ -192,14 +192,12 @@ h1 {
 
 #slide-arrow-prev {
     left: 0;
-    padding-left: 0.25rem;
     border-radius: 0 2rem 2rem 0;
 }
   
 
 #slide-arrow-next {
     right: 0;
-    padding-left: 0.75rem;
     border-radius: 2rem 0 0 2rem;
 }
 
@@ -240,6 +238,4 @@ h1 {
     text-decoration: underline;
 }
 
-.cta {
-    
-}
+
