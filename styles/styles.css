@@ -80,9 +80,19 @@ footer {
     display: flex;
     justify-content: center;
     align-self: end;
-    color: white;
-    background-color: black;
 }
+
+footer {
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-size: 20px;
+}
+
 
 
 .cta {
