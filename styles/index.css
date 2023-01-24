@@ -21,7 +21,7 @@ body {
 h1 {
     font-size: 87px;
     color:white;
-    margin: 10px;
+    margin: 36px;
     margin-left: 125px;
 }
 
@@ -36,6 +36,11 @@ h2 {
     margin-left: 190px;
     margin-top: 0px;
     font-size: 49px;
+    transition: all 0.5s ease-in-out
+}
+
+h2:hover {
+    transform: scale(-1.1);
 }
 
 
@@ -107,7 +112,7 @@ h2 {
 
 
 .content-container {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .discover {
