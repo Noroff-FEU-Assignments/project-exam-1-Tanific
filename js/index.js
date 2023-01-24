@@ -16,11 +16,11 @@ async function getPosts(url) {
     for(let i = 0; i < json.length; i++) {
         slides.innerHTML +=
         `<li class="slide">
-        <h3><a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}"></a></h3>
+        <h3><a href="post-specific.html?id=${json[i].id}">${json[i].title.rendered}</h3>
         <div class="img-container">
             <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
         </div>
-        <p class="excerpt">${json[i].excerpt.rendered}</p></li>`
+        <p class="excerpt">${json[i].excerpt.rendered}</p></li></a>`
         
 
 
