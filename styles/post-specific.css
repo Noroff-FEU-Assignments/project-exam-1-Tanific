@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    background: no-repeat center url("../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
     height: 100vh;
     background-size: cover;
 }

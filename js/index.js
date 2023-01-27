@@ -21,25 +21,7 @@ async function getPosts(url) {
             <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
         </div>
         <p class="excerpt">${json[i].excerpt.rendered}</p></li></a>`
-        
 
-
-        /*
-        `<div class="slide">
-            <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
-            <h2>${json[i].title.rendered}</h2>
-            <p>${json[i].excerpt.rendered}</p>
-        </div>`
-
-
-
-        `<a href="post-specific.html?id=${json[i].id}" title="${json[i].title.rendered}">
-            <div id="post">
-                <img src=${json[i]._embedded["wp:featuredmedia"][0].source_url}>
-                <h2>${json[i].title.rendered}</h2>
-                <p>${json[i].excerpt.rendered}</p>
-            </div>
-        </a>`*/
     }
 }
 getPosts(discoverOceanURL);
