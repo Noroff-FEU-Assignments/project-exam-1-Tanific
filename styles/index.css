@@ -185,8 +185,7 @@ h1 {
     z-index: 1;
 }
 
-.slide-arrow:hover,
-.slide-arrow:focus {
+.slide-arrow:hover {
   opacity: 1;
 }
 

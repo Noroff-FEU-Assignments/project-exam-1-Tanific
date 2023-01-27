@@ -16,19 +16,19 @@ body section {
     width: 800px;
 }
 
-
-#titleErr {
-    display: none;
-}
-
-
 h1 {
     font-size: 90px;
     color: #21E4FF;
     text-align: center;
 }
 
+.form-error {
+    display: none;
+}
 
+label {
+    display: block;
+}
 
 input  {
     height: 50px;
@@ -37,8 +37,6 @@ input  {
 
 .contact-flex {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     gap: 30px;
 }
     
@@ -59,20 +57,28 @@ input  {
 }
 
 
-.cta {
+.cta-contact {
     text-align: center;
-    margin: 30px auto;
     padding: 20px;
     width: 200px;
     cursor: pointer;
-}
-
-
-.cta a {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color:#21E4FF;
     color: white;
-    text-decoration: none;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out
+
 }
 
+.cta-contact:hover {
+    background: #19b9ce;
+    transform: scale(1.1);
+}
 
 .goback {
     display: flex;
