@@ -75,12 +75,10 @@ main {
 }
 
 
-
 footer {
     display: flex;
     justify-content: center;
     align-self: end;
-    bottom: -10%;
 }
 
 footer {
@@ -93,7 +91,6 @@ footer p {
     color: white;
     font-size: 20px;
 }
-
 
 
 .cta {

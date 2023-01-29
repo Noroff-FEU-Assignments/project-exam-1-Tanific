@@ -92,15 +92,27 @@
 
 @media only screen and (max-width: 700px) {
 
+    .logo img {
+        width: 120px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .navigation {
+        gap: 40px;
+        font-size: 17px;
+    }
+
     .discover h1 {
         margin-left: 40px;
-        font-size: 49px;
+        font-size: 40px;
         margin-bottom: 20px;
     }
 
     .discover h2 {
         margin-left: 70px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .homepage_bottom_left ul {
@@ -119,7 +131,7 @@
     }
 
     .recent {
-        margin: 100px auto;
+        margin-top: 100px;
         width: 450px;
     }
 
@@ -137,3 +149,46 @@
 
 
 } 
+
+@media only screen and (max-width: 500px) {
+
+
+    .content-container {
+        margin-top: 70px;
+    }
+
+    .discover h1 {
+        font-size: 33px;
+    }
+
+    .discover h2 {
+        font-size: 20px;
+    }
+
+    .homepage_bottom_left ul {
+        font-size: 13px;
+    }
+
+    .homepage_bottom_left li {
+        line-height: 15px;
+        align-items: center;
+    }
+
+    .homepage_bottom_right a {
+        width: 200px;
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    .recent {
+        width: 400px;
+    }
+
+    .recent img {
+        width: 400px;
+    }
+
+    .recent h2 {
+        font-size: 40px;
+    }
+}

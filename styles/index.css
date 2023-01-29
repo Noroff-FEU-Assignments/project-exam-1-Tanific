@@ -128,9 +128,9 @@ h1 {
 
 /*carousel*/
 .recent {
-    margin: 120px auto;
     width: 600px;
-    margin-bottom: -20px;
+    margin: 0px auto;
+    margin-top: 70px;
 }
 
 .recent h2 {
