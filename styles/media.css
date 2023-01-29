@@ -191,4 +191,11 @@
     .recent h2 {
         font-size: 40px;
     }
+
+    .logo img {
+        width: 90px;
+        height: 36px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
