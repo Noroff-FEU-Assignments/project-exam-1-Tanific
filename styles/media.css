@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1400px) {
+    /* styles and index page */
+
+    .navigation {
+        font-size: 30px;
+    }
+
+    .logo img {
+        width: 180px;
+        height: 90px;
+    }
+
+    .content-container {
+        margin-top: 110px;
+    }
+
+    .discover h1 {
+        font-size: 70px;
+    }
+
+    .discover h2 {
+        font-size: 40px;
+    }
+
+    .homepage_bottom_left ul {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .homepage_bottom_left li img {
+        width: 50px;
+    }
+
+    .homepage_bottom_left li {
+        margin-bottom: 10px;
+    }
+
+    .cta {
+        padding: 20px;
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    /* styles and index page */
+
+    .discover h1 {
+        font-size: 55px;
+        margin-left: 100px;
+    }
+
+    .logo img {
+        width: 140px;
+        height: 70px;
+    }
+
+
+    .navigation {
+        gap: 80px;
+    }
+
+    .discover h2 {
+        font-size: 35px;
+        margin-left: 140px;
+        margin-bottom: 20px;
+    }
+
+    .bottom_container_main {
+        grid-template-columns: 1fr;
+    }
+
+    .homepage_bottom_left {
+        margin-top: 30px;
+    }
+
+    .homepage_bottom_right a {
+        margin-bottom: 60px;
+    }
+
+    .navigation {
+        gap: 60px;
+        font-size: 25px;
+    }
+    
+    .posts {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .discover h1 {
+        margin-left: 40px;
+        font-size: 49px;
+        margin-bottom: 20px;
+    }
+
+    .discover h2 {
+        margin-left: 70px;
+        font-size: 30px;
+    }
+
+    .homepage_bottom_left ul {
+        font-size: 16px;
+    }
+
+    .homepage_bottom_left li img {
+        width: 35px;
+        margin-right: 25px;
+    }
+
+    .homepage_bottom_right a {
+        margin-bottom: 40px;
+        width: 230px;
+        padding: 15px;
+    }
+
+    .recent {
+        margin: 100px auto;
+        width: 450px;
+    }
+
+    .recent h2 {
+        font-size: 60px;
+    }
+
+    .slide img {
+        width: 450px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+
+} 
