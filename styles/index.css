@@ -239,3 +239,7 @@ h1 {
 }
 
 
+.slide-arrow svg {
+    position: absolute;
+    top: 15px;
+}
