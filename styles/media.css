@@ -39,6 +39,14 @@
         padding: 20px;
         width: 250px;
     }
+
+    .jelly2 {
+        left: 50%;
+    }
+
+    .jelly, .jelly2 {
+        width: 300px;
+    }
 }
 
 
@@ -87,10 +95,72 @@
         width: 100%;
     }
 
+    /*posts page */
+
+    .jelly2 {
+        left: 36px;
+    }
+
+    .jelly3 {
+        bottom: 18%;
+    }
+
+    .postswrapper h1 {
+        font-size: 60px;
+    }
+
+    .postswrapper {
+        justify-items: center;
+    }
+
+    .posts_main-container img {
+        width: 600px;
+        height: 350px;
+    }
+
+    #post:after {
+        height: 350px;
+    }
+
+    #post h2 {
+        font-size: 40px;
+        bottom: 130px;
+    }
+
+    #post p {
+        font-size: 17px;
+    }
 
 }
 
 @media only screen and (max-width: 700px) {
+
+    .jelly2 {
+        left: 15%;
+    }
+
+    .jelly3 {
+        width: 400px;
+    }
+
+    .posts_main-container img {
+        width: 400px;
+        height: 280px;
+    }
+
+    #post:after {
+        height: 280px;
+    }
+
+    #post h2 {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    #post p {
+        font-size: 17px;
+        margin-left: 30px;
+    }
 
     .logo img {
         width: 120px;
@@ -146,12 +216,57 @@
     footer p {
         font-size: 15px;
     }
+    
+    .breadcrumbs, .activeBreadcrumb {
+        font-size: 18px!important;
+    }
 
+    .breadcrumbs {
+        margin-left: 20px;
+    }
 
 } 
 
 @media only screen and (max-width: 500px) {
 
+    .postswrapper h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .posts_main-container img {
+        width: 330px;
+        height: 180px;
+    }
+
+    #post:after {
+        height: 180px;
+    }
+
+    #post h2 {
+        font-size: 20px;
+        margin-left: 30px;
+        bottom: 90px;
+    }
+
+    #post p {
+        font-size: 15px;
+        margin-left: 30px;
+        bottom: 20px;
+    }
+
+    .jelly {
+        bottom: 60%;
+    }
+
+    .jelly2 {
+        display: none;
+    }
+
+    .jelly3 {
+        bottom: 35%;
+        width: 400px;
+    }
 
     .content-container {
         margin-top: 70px;
@@ -181,11 +296,11 @@
     }
 
     .recent {
-        width: 380px;
+        width: 350px;
     }
 
     .recent img {
-        width: 380px;
+        width: 350px;
     }
 
     .recent h2 {

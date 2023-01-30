@@ -32,19 +32,39 @@ async function getPosts(url) {
 
 getPosts(discoverOceanURL);
 
-/* view more button */
+/* load more button */
 loadMoreButton.addEventListener("click", () => {
     getPosts(perPage12);
 });
 
+/* hide button when more results are loaded */
+loadMoreButton.addEventListener("click", () => {
+    loadMoreButton.style.display = "none";
+})
 
-/* parallax scroll jellyfish and anglerfish */
-window.addEventListener('scroll', function() {
+/* parallax scroll jellyfish and anglerfish :D*/
+window.addEventListener("scroll", function() {
     const distance = window.scrollY;
     document.querySelector(".jelly").style.transform = `translateY(${distance * -0.5}px)`;
     document.querySelector(".jelly2").style.transform = `translateY(${distance * -0.3}px)`;
     document.querySelector(".jelly3").style.transform = `translateY(${distance * -0.2}px)`;
 }) 
 
+/* back to top button */
+const topButton = document.getElementById("topBtn");
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+        topButton.style.display = "block";
+    } else {
+            topButton.style.display = "none";
+    }
+}
+
+function toTop() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+}
 
