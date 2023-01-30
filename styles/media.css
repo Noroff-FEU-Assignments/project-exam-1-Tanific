@@ -265,7 +265,8 @@
 
     .jelly3 {
         bottom: 35%;
-        width: 400px;
+        width: 300px;
+        margin: 0px;
     }
 
     .content-container {
@@ -312,5 +313,10 @@
         height: 36px;
         margin-left: 10px;
         margin-top: 10px;
+    }
+
+    .navigation {
+        gap: 33px;
+        font-size: 15px;
     }
 }
