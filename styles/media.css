@@ -339,6 +339,7 @@
     .dropdown-content {
         position: absolute;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        right: 20px;
     }
 
     .dropdown {
@@ -363,7 +364,7 @@
         border-radius:20%;
         background-color: var(--background-color1);
         color: white;
-        margin-right: 60px;
+        margin-right: 20px;
         margin-top: 20px;
         border: none;
     }
