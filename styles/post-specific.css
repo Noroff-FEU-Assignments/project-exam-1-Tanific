@@ -45,7 +45,7 @@ h1 {
 
 .goback {
     margin: 50px;
-    color: #21E4FF;
+    color: var(--background-color1);
     font-size: 23px;
     font-weight: bold;
     text-decoration: underline!important;

@@ -93,7 +93,7 @@ h1 {
     position: absolute;
     bottom: 160px;
     margin-left: 80px;
-    color: #21E4FF;
+    color: var(--background-color2);
     font-weight: bolder;
     font-size: 60px;
     z-index: 1;
@@ -128,7 +128,7 @@ h1 {
     margin: 60px auto;
     padding: 10px;
     color: white;
-    background: #21E4FF;
+    background: var(--background-color1);
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -146,7 +146,7 @@ h1 {
     z-index: 100;
     border: none; 
     outline: none;
-    background: #21E4FF;
+    background: var(--background-color1);
     color: white;
     font-size: 16px;
     padding: 14px;
@@ -154,6 +154,6 @@ h1 {
 }
 
 #topBtn:hover {
-    background: #19b9ce;
+    background: var(--background-color2);
     cursor: pointer;
 }

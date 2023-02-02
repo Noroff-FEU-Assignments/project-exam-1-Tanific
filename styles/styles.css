@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins/Poppins-Regular.ttf");
@@ -40,7 +42,7 @@
 
 .active-nav {
     text-decoration: underline!important;
-	text-decoration-color: #21E4FF!important;
+	text-decoration-color: var(--background-color1)!important;
     text-decoration-thickness: 4px!important;
 }
 
@@ -53,14 +55,15 @@ main {
 
 .activeBreadcrumb {
     text-decoration: underline;
-    color: #21E4FF;
+    color: var(--background-color1);
 
 }
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #21E4FF;
+    color: var(--background-color1);
 }
+
 
 .breadcrumbs {
     display: flex;
@@ -81,9 +84,11 @@ footer {
     align-self: end;
 }
 
+
 footer {
     position: relative;
 }
+
 
 footer p {
     position: absolute;
@@ -95,7 +100,7 @@ footer p {
 
 .cta {
     color: white;
-    background-color: #21E4FF;
+    background-color: var(--background-color1);
     padding:30px;
     border-radius: 20px;
     width: 300px;
@@ -107,8 +112,26 @@ footer p {
 
 
 .cta:hover {
-    background: #19b9ce;
+    background: var(--background-color2);
     transform: scale(1.1);
 }
 
 
+.dropbtn {
+    display: none;
+}
+
+
+.dropdown-content {
+    display: none;
+}
+
+.fas:hover {
+    cursor: pointer;
+}
+
+.dropbtn > i {
+    pointer-events: none;
+    font-size: 24px;
+    padding: 10px;
+}

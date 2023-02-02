@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/styles.css" rel="stylesheet">
     <link href="styles/post-specific.css" rel="stylesheet">
+    <link href="styles/media.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
+    <script src="js/dropdown.js"></script>
+
 </head>
 <body>
     <main>
         <div class="logo">
             <a href="index.html"><img src="images/logoocean.png"></a>   
         </div>
+        <nav>
+          <button onclick="menuButton()" class="dropbtn"><i class="fa fa-bars"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html"><p>Home</p></a>
+            <a href="about.html"><p>About</p></a>
+            <a href="contact.html"><p>Contact</p></a>
+            </div>
         <div class="navigation">
-              <a href="index.html"><p>Home</p></a>
+              <a href="index.html" span class="active-nav"><p>Home</p></a>
               <a href="about.html"><p>About</p></a>
               <a href="contact.html"><p>Contact</p></a>
-
         </div>
-    </div>
+      </nav>
     </main>
     <section class="breadcrumbs">
         <a href="index.html">Home /</a>

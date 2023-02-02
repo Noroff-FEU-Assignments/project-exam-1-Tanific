@@ -7,21 +7,32 @@
     <link href="styles/posts.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
     <link href="styles/media.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/dropdown.js"></script>
+
     <title>Posts - Discover our ocean</title>
 </head>
 <body>
     <div>
       <main>
-          <div class="logo">
-              <a href="index.html"><img src="images/logoocean.png"></a>   
-          </div>
-          <div class="navigation">
-                <a href="index.html"><p>Home</a>
-                <a href="about.html"><p>About</a>
-                <a href="contact.html"><p>Contact</a>
-          </div>
-      </div>
-      </main>
+        <div class="logo">
+            <a href="index.html"><img src="images/logoocean.png"></a>   
+        </div>
+        <nav>
+          <button onclick="menuButton()" class="dropbtn"><i class="fa fa-bars"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html"><p>Home</p></a>
+            <a href="about.html"><p>About</p></a>
+            <a href="contact.html"><p>Contact</p></a>
+            </div>
+        <div class="navigation">
+              <a href="index.html"><p>Home</p></a>
+              <a href="about.html"><p>About</p></a>
+              <a href="contact.html"><p>Contact</p></a>
+        </div>
+      </nav>
+    </main>
       <section class="breadcrumbs">
         <a href="index.html">Home /</a> 
         <p class="activeBreadcrumb">All posts</a>

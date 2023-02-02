@@ -40,6 +40,8 @@
         width: 250px;
     }
 
+    /* posts page */
+
     .jelly2 {
         left: 50%;
     }
@@ -130,11 +132,27 @@
     #post p {
         font-size: 17px;
     }
+     /* about page */
 
+    .about-info {
+        font-size: 16px;
+    }
+
+    .about-info p {
+        margin-bottom: 30px;
+    }
+
+    .about-info a {
+        font-size: 22px;
+    }
+
+    .about-container h1 {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
-
+    /* posts page */
     .jelly2 {
         left: 15%;
     }
@@ -162,15 +180,16 @@
         margin-left: 30px;
     }
 
+    /* styles and index page*/
     .logo img {
         width: 120px;
         height: 50px;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .navigation {
-        gap: 40px;
+        gap: 60px;
         font-size: 17px;
     }
 
@@ -229,6 +248,8 @@
 
 @media only screen and (max-width: 500px) {
 
+/* posts page*/
+
     .postswrapper h1 {
         font-size: 50px;
         margin-bottom: 20px;
@@ -269,16 +290,23 @@
         margin: 0px;
     }
 
+/* styles and index page */
+    .discover svg {
+        width: 40px;
+    }
+
+
     .content-container {
         margin-top: 70px;
     }
 
     .discover h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .discover h2 {
         font-size: 20px;
+        margin-left: 70px;
     }
 
     .homepage_bottom_left ul {
@@ -308,15 +336,71 @@
         font-size: 40px;
     }
 
-    .logo img {
-        width: 90px;
-        height: 36px;
-        margin-left: 10px;
-        margin-top: 10px;
+    .dropdown-content {
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+        background-color: white;
     }
 
     .navigation {
-        gap: 33px;
-        font-size: 15px;
+        display: none;
     }
-}
+
+    .dropbtn {
+        display: block;
+        border-radius:20%;
+        background-color: var(--background-color1);
+        color: white;
+        margin-right: 20px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    
+    .dropbtn:hover {
+        cursor: pointer;
+        background: var(--background-color2);
+
+    }
+
+    .dropdown-content a:hover {
+        background: var(--background-color2);
+
+        color: white;
+    }
+
+    .show {
+        display: block;
+    }
+
+
+/* about page */
+    .about-container {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%!important;
+    }
+
+    .about-container h1 {
+        margin: 0;
+    }
+
+    .about-info {
+        font-size: 14px;
+    }
+
+}   
