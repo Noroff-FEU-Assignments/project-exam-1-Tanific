@@ -81,7 +81,8 @@
     }
 
     .homepage_bottom_left {
-        margin-top: 30px;
+        margin: 30px;
+        margin-left: 0;
     }
 
     .homepage_bottom_right a {
@@ -295,26 +296,24 @@
         width: 40px;
     }
 
-
     .content-container {
         margin-top: 70px;
     }
 
     .discover h1 {
-        font-size: 40px;
+        font-size: 44px;
     }
 
     .discover h2 {
-        font-size: 20px;
-        margin-left: 70px;
-    }
+        font-size: 24px;
+        margin-left: 40px;    }
 
     .homepage_bottom_left ul {
         font-size: 13px;
     }
 
     .homepage_bottom_left li {
-        line-height: 15px;
+        line-height: 25px;
         align-items: center;
     }
 
@@ -384,6 +383,10 @@
 
     .show {
         display: block;
+    }
+
+    .homepage_bottom_left li {
+        margin-bottom: 15px;
     }
 
 
