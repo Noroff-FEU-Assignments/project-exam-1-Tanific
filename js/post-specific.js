@@ -37,6 +37,6 @@ function createHTML(details) {
     <h1>${details.title.rendered}</h1>
     <p>${details.content.rendered}</p>
     </div>
-    <div><img src=${details._embedded["wp:featuredmedia"][0].source_url}>`
+    <div class="posts-bottom-container"><img src=${details._embedded["wp:featuredmedia"][0].source_url}></div>`
 }
 

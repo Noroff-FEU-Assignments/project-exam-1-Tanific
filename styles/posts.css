@@ -53,6 +53,7 @@ h1 {
     flex-flow: row wrap;
     justify-content: center;
     gap: 75px;
+    margin-bottom: 30px;
 }
 
 
