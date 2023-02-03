@@ -1,7 +1,7 @@
 body {
-    background: no-repeat center url("../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
-    height: 100vh;
+    background: no-repeat center/100% url("../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
     background-size: cover;
+    min-height: 100vh;
 }
 
 
@@ -12,22 +12,23 @@ body {
 
 .post-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     margin: 0 auto;
     justify-items: center;
     align-items: center;
-    height: 60vh;
+    max-height: 100vh;
 }
 
 
 
 .post-info img {
-    width: 615px;
-    height: 449px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     object-fit: cover;
     border-radius: 80px;
     border: 2px solid white;
+    margin: 30px;
 }
 
 
@@ -46,7 +47,7 @@ h1 {
 .goback {
     margin: 50px;
     color: var(--background-color1);
-    font-size: 23px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: underline!important;
 }

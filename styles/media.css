@@ -1,6 +1,5 @@
 @media only screen and (max-width: 1400px) {
     /* styles and index page */
-
     .navigation {
         font-size: 30px;
     }
@@ -41,7 +40,6 @@
     }
 
     /* posts page */
-
     .jelly2 {
         left: 50%;
     }
@@ -51,7 +49,6 @@
     }
 
     /*contact page */
-
     .contactsection h1 {
         font-size: 55px;
     }
@@ -59,12 +56,34 @@
     .contactsection {
         width: 80vw;
     }
+
+    /* post-specific page */
+    .post-content h1 {
+        font-size: 40px;
+    }
+
+    .post-content p {
+        font-size: 18px;
+    }
+
+    .post-info img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .goback {
+        font-size: 23px;
+    }
+
+    .post-info {
+        margin-top: 20px;
+    }
+
 }
 
 
 @media only screen and (max-width: 900px) {
     /* styles and index page */
-
     .discover h1 {
         font-size: 55px;
         margin-left: 100px;
@@ -109,7 +128,6 @@
     }
 
     /*posts page */
-
     .jelly2 {
         left: 36px;
     }
@@ -160,6 +178,24 @@
     .about-container h1 {
         font-size: 50px;
     }
+
+    /*post specific page */
+    .post-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-info img {
+        margin: 0;
+        width: 500px;
+        height: 400px;
+    }
+
+    .goback {
+        display: flex;
+        padding: 10px 0 0 0;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -184,11 +220,13 @@
     #post h2 {
         font-size: 25px;
         margin-left: 30px;
+        margin-bottom: 10px;
     }
 
     #post p {
         font-size: 17px;
         margin-left: 30px;
+        width: 360px;
     }
 
     /* styles and index page*/
@@ -248,7 +286,7 @@
     }
     
     .breadcrumbs, .activeBreadcrumb {
-        font-size: 18px!important;
+        font-size: 18px;
     }
 
     .breadcrumbs {
@@ -256,7 +294,6 @@
     }
     
     /* contact page */
-
     .contact-flex {
         display: block;
     }
@@ -278,10 +315,16 @@
         height: 80vh;
     }
 
+    /* post-specific page */ 
+    .post-info img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
 
-/* posts page*/
-
+    /* posts page*/
     .postswrapper h1 {
         font-size: 50px;
         margin-bottom: 20px;
@@ -305,7 +348,8 @@
     #post p {
         font-size: 13px;
         margin-left: 30px;      
-        bottom: 20px;       
+        bottom: 20px;
+        width: 280px;       
     }       
         
     .jelly {        
@@ -322,7 +366,11 @@
         margin: 0px;
     }
 
-/* styles and index page */
+    /* styles and index page */
+    .breadcrumbs, .activeBreadcrumb {
+        font-size: 15px;
+    }
+
     .discover svg {
         width: 40px;
     }
@@ -421,7 +469,7 @@
     }
 
 
-/* about page */
+    /* about page */
     .about-container {
         display: flex;
         justify-self: center;
@@ -438,7 +486,7 @@
         font-size: 14px;
     }
 
-/* contact page */
+    /* contact page */
     .contactsection {
         width: 100vw;
     }
@@ -447,5 +495,14 @@
         margin: 10px auto;
     }
 
-    } 
-}
+    /* post specific page */
+
+    .post-info h1{
+        font-size: 30px;
+    }
+
+    .post-info p {
+        font-size: 16px
+    }
+
+} 

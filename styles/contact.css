@@ -51,6 +51,7 @@ input  {
 .div1 input, .div2 input, .div3 input, .div4 input {
     width: 100%;
     border: 0;
+    padding-left: 10px;
 }
 
 #contact_form_container {
