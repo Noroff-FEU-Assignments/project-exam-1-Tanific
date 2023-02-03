@@ -7,7 +7,6 @@
 body {
     position: relative;
     background: linear-gradient(250deg, #0f2980, #000305, #000000);
-    max-width: 100%;
 }
 
 
@@ -120,6 +119,7 @@ h1 {
     align-items: center;
     margin: 0 auto;
     color: #21E4FF;
+    margin-bottom: 50px;
 }
 
 

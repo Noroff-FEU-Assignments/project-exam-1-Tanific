@@ -81,7 +81,7 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    align-self: end;
+    margin-top: 20px;
 }
 
 
