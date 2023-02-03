@@ -49,6 +49,16 @@
     .jelly, .jelly2 {
         width: 300px;
     }
+
+    /*contact page */
+
+    .contactsection h1 {
+        font-size: 55px;
+    }
+
+    .contactsection {
+        width: 80vw;
+    }
 }
 
 
@@ -244,8 +254,29 @@
     .breadcrumbs {
         margin-left: 20px;
     }
+    
+    /* contact page */
 
-} 
+    .contact-flex {
+        display: block;
+    }
+
+    .div1, .div2, .div3, .div4 {
+        margin-top: 15px;
+    }
+
+    .contactsection h1 {
+        font-size: 40px;
+    }
+
+    .cta-contact {
+        width: 150px;
+        padding: 14px;
+    }
+
+    .contactsection {
+        height: 80vh;
+    }
 
 @media only screen and (max-width: 500px) {
 
@@ -273,18 +304,18 @@
 
     #post p {
         font-size: 13px;
-        margin-left: 30px;
-        bottom: 20px;
-    }
-
-    .jelly {
-        bottom: 60%;
-    }
-
-    .jelly2 {
-        display: none;
-    }
-
+        margin-left: 30px;      
+        bottom: 20px;       
+    }       
+        
+    .jelly {        
+        bottom: 60%;        
+    }       
+        
+    .jelly2 {       
+        display: none;      
+    }       
+        
     .jelly3 {
         bottom: 35%;
         width: 300px;
@@ -407,4 +438,14 @@
         font-size: 14px;
     }
 
-}   
+/* contact page */
+    .contactsection {
+        width: 100vw;
+    }
+
+    #contact_form_container {
+        margin: 10px auto;
+    }
+
+    } 
+}

@@ -1,5 +1,5 @@
 body {
-    background: no-repeat url("../images/contactfish.png");
+    background: no-repeat center 70% url("../images/contactfish.png");
     background-size: cover;
     height: 100vh;
     overflow: hidden;
@@ -12,7 +12,7 @@ body section {
     height: 65vh;
     justify-content: center;
     color: white;
-    width: 800px;
+    width: 50vw;
 }
 
 h1 {
@@ -23,6 +23,9 @@ h1 {
 
 .form-error {
     display: none;
+    color:white;
+    background-color: var(--background-color2);
+    border: 2px solid var(--background-color2);
 }
 
 label {
@@ -39,17 +42,16 @@ input  {
     gap: 30px;
 }
     
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 2 / 1 / 3 / 3; }
-    .div4 { grid-area: 3 / 1 / 4 / 3; } 
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 3; }
+.div4 { grid-area: 3 / 1 / 4 / 3; } 
 
 
 .div1 input, .div2 input, .div3 input, .div4 input {
     width: 100%;
-    border: 2px solid var(--background-color1);
+    border: 0;
 }
-
 
 #contact_form_container {
     margin-left: 170px;
@@ -85,4 +87,8 @@ input  {
     color: white;
     font-size: 20px;
     font-weight: bolder;
+}
+
+.goback:hover {
+    color: var(--background-color2)
 }
