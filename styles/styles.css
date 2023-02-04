@@ -96,6 +96,7 @@ footer p {
 
 footer img {
     max-width: 100vw;
+    overflow: hidden;
 }
 
 .cta {
