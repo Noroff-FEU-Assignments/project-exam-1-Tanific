@@ -94,7 +94,7 @@ footer p {
 }
 
 
-footer path {
+footer svg {
     overflow: hidden;
     max-width: 100vw;
 }
