@@ -94,9 +94,9 @@ footer p {
 }
 
 
-footer img {
-    max-width: 100vw;
+footer path {
     overflow: hidden;
+    max-width: 100vw;
 }
 
 .cta {
