@@ -84,6 +84,9 @@ footer {
     margin-top: 20px;
     position: relative;
     max-width: 100%;
+    background: no-repeat center/100% url("../images/wave.svg");
+    background-size: cover;
+    min-height: 300px;
 }
 
 
