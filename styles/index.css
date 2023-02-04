@@ -22,6 +22,7 @@ h1 {
     color:white;
     margin: 36px;
     margin-left: 125px;
+    text-shadow: #000 1px 0 10px;
 }
 
 
@@ -35,7 +36,8 @@ h1 {
     margin-left: 190px;
     margin-top: 0px;
     font-size: 49px;
-    transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-in-out;
+    text-shadow: #000 1px 0 10px;
 }
 
 .discover h2:hover {
