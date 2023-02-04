@@ -82,11 +82,8 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
-
-
-footer {
     position: relative;
+
 }
 
 
@@ -95,6 +92,12 @@ footer p {
     bottom: 10%;
     color: white;
     font-size: 20px;
+}
+
+
+footer svg path {
+    width: 100%;
+    height: 100%;
 }
 
 
