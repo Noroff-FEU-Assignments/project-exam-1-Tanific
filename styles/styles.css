@@ -94,11 +94,6 @@ footer p {
 }
 
 
-footer img {
-    overflow: hidden;
-    max-width: 100vw;
-}
-
 .cta {
     color: white;
     background-color: var(--background-color1);
