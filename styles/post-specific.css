@@ -14,9 +14,9 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     margin: 0 auto;
-    justify-items: center;
+    justify-items: left;
     align-items: center;
-    min-height: 50vh;
+    min-height: 65vh;
 }
 
 
