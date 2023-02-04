@@ -83,6 +83,7 @@ footer {
     justify-content: center;
     margin-top: 20px;
     position: relative;
+    max-width: 100%;
 }
 
 
