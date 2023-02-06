@@ -83,8 +83,9 @@ h1 {
 }
   
 
-  .modal-content img {
+.modal-content img {
     width: 800px!important;
-    height: 800px!important;
+    height: 600px!important;
     object-fit: contain;
 }
+
