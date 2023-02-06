@@ -30,15 +30,34 @@ getPosts(discoverOceanURL);
 /*Carousel arrows*/
 nextButton.addEventListener("click", () => {
   const slideWidth = slides.clientWidth;
-  slidesContainer.scrollLeft += slideWidth;
-
+  const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
+  if (slidesContainer.scrollLeft >= maxScrollLeft) {
+    slidesContainer.scrollLeft = 0;
+  } else {
+    slidesContainer.scrollLeft += slideWidth;
+  }
+  clearInterval(slideInterval);
 });
+
 
 prevButton.addEventListener("click", () => {
   const slideWidth = slides.clientWidth;
-  slidesContainer.scrollLeft -= slideWidth;
+  if (slidesContainer.scrollLeft <= 0) {
+    const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
+    slidesContainer.scrollLeft = maxScrollLeft;
+  } else {
+    slidesContainer.scrollLeft -= slideWidth;
+  }
+  clearInterval(slideInterval);
 
 });
+
+/*change slides automatically*/
+const slideInterval = setInterval(() => {
+  const slideWidth = slides.clientWidth;
+  const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
+  slidesContainer.scrollLeft = (slidesContainer.scrollLeft + slideWidth) % (maxScrollLeft + slideWidth);
+}, 5000);
 
 
 
