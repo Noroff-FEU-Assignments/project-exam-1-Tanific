@@ -6,7 +6,7 @@
 
 body {
     display: grid;
-
+    background: linear-gradient(to bottom, var(--background-color1) 0%, var(--background-color3) 100%);
 }
 
 
@@ -126,6 +126,7 @@ h3 {
     margin-top: 150px;
 }
 
+
 .discover {
     display: flex;
     justify-content: center;
@@ -134,17 +135,23 @@ h3 {
 
 /*carousel*/
 .recent {
+    position: relative;
     width: 600px;
     margin: 0px auto;
     margin-top: 70px;
+    border: 2px solid white;
+    background: white;
+    border-radius: 38px;
+    padding: 50px 5px 20px 5px;
 }
+
 
 .recent h2 {
     font-size: 70px;
     text-align: center;
     margin: 0px;
     margin-bottom: 43px;
-    color: var(--background-color3);
+    color: black;
 }
 
 

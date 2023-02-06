@@ -48,6 +48,9 @@ window.addEventListener("scroll", function() {
     document.querySelector(".jelly").style.transform = `translateY(${distance * -0.5}px)`;
     document.querySelector(".jelly2").style.transform = `translateY(${distance * -0.3}px)`;
     document.querySelector(".jelly3").style.transform = `translateY(${distance * -0.2}px)`;
+    document.querySelector(".jelly").style.visibility = "visible";
+    document.querySelector(".jelly2").style.visibility = "visible";
+    document.querySelector(".jelly3").style.visibility = "visible";
 }) 
 
 /* back to top button */

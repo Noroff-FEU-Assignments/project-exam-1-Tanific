@@ -26,6 +26,7 @@ h1 {
     position: absolute;
     width: 400px;
     margin: 30px;
+    visibility: hidden;
 }
 
 
