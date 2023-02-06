@@ -20,6 +20,8 @@ h1 {
     font-size: 90px;
     color: var(--background-color1);
     text-align: center;
+    text-shadow: #000 1px 0 10px;
+
 }
 
 .form-error {
