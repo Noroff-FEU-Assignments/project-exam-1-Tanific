@@ -94,6 +94,9 @@
         height: 70px;
     }
 
+    .bottom_container_main h3 {
+        font-size: 15px;
+    }
 
     .navigation {
         gap: 80px;
