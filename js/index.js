@@ -27,7 +27,7 @@ async function getPosts(url) {
 getPosts(discoverOceanURL);
 
 
-/*Carousel arrows*/
+/*Carousel arrows and stop the automatic slide scroll if arrow is clicked*/
 nextButton.addEventListener("click", () => {
   const slideWidth = slides.clientWidth;
   const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;

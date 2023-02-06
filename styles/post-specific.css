@@ -30,6 +30,9 @@ body {
     margin: 30px;
 }
 
+.post-info img:hover {
+    cursor: pointer;
+}
 
 .posts-bottom-container {
     display: flex;
@@ -58,3 +61,30 @@ h1 {
     margin: 30px;
 }
 
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px!important;
+    height: 600px!important;
+}
+  
+
+  .modal-content img {
+    width: 800px!important;
+    height: 800px!important;
+    object-fit: contain;
+}
