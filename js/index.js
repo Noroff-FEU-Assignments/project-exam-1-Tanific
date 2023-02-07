@@ -27,27 +27,24 @@ async function getPosts(url) {
 getPosts(discoverOceanURL);
 
 
-/*slider arrows*/
+/*slider arrows. if clicked it clears the automatic slider interval*/
 nextButton.addEventListener("click", () => {
   changeSlides(1);
+  clearInterval(slideInterval);
 });
 
 prevButton.addEventListener("click", () => {
   changeSlides(-1);
+  clearInterval(slideInterval);
 });
 
-/*change slides automatically*/
+/*change slides automatically + slider goes back to slide 1 after reaching the final slide*/
 const slideInterval = setInterval(() => {
-  changeSlides(1);
-}, 3000);
-
-/*carousel goes back to slide 1 after last preview & the automatic slide scroll stops if arrow is clicked*/
-const changeSlides = direction => {
   const slideWidth = slides.clientWidth;
   const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
-  slidesContainer.scrollLeft = (slidesContainer.scrollLeft + direction * slideWidth) % (maxScrollLeft + slideWidth);
-  clearInterval(slideInterval);
-};
+  slidesContainer.scrollLeft = (slidesContainer.scrollLeft + slideWidth) % (maxScrollLeft + slideWidth);
+}, 4000);
+
 
 
 
