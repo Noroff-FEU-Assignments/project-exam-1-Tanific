@@ -49,7 +49,7 @@ const modalImg = document.getElementById("img01");
 const postImg = document.querySelector(".post-img");
 
     postImg.addEventListener("click", function() {
-        modal.style.display = "block";
+        modal.style.display = "flex";
         modalImg.src = postImg.src;
     });
 

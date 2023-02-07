@@ -49,7 +49,6 @@ prevButton.addEventListener("click", () => {
     slidesContainer.scrollLeft -= slideWidth;
   }
   clearInterval(slideInterval);
-
 });
 
 /*change slides automatically*/
@@ -57,7 +56,7 @@ const slideInterval = setInterval(() => {
   const slideWidth = slides.clientWidth;
   const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
   slidesContainer.scrollLeft = (slidesContainer.scrollLeft + slideWidth) % (maxScrollLeft + slideWidth);
-}, 5000);
+}, 4000);
 
 
 
