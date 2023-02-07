@@ -69,6 +69,12 @@ h1 {
 .posts_main-container a {
     position: relative;
     border: 2px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+
+.posts_main-container a:hover {
+    transform: scale(1.02);
 }
 
 

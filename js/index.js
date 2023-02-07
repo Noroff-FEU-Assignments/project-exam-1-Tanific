@@ -27,36 +27,28 @@ async function getPosts(url) {
 getPosts(discoverOceanURL);
 
 
-/*Carousel arrows and stop the automatic slide scroll if arrow is clicked*/
+/*slider arrows*/
 nextButton.addEventListener("click", () => {
-  const slideWidth = slides.clientWidth;
-  const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
-  if (slidesContainer.scrollLeft >= maxScrollLeft) {
-    slidesContainer.scrollLeft = 0;
-  } else {
-    slidesContainer.scrollLeft += slideWidth;
-  }
-  clearInterval(slideInterval);
+  changeSlides(1);
 });
 
-
 prevButton.addEventListener("click", () => {
-  const slideWidth = slides.clientWidth;
-  if (slidesContainer.scrollLeft <= 0) {
-    const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
-    slidesContainer.scrollLeft = maxScrollLeft;
-  } else {
-    slidesContainer.scrollLeft -= slideWidth;
-  }
-  clearInterval(slideInterval);
+  changeSlides(-1);
 });
 
 /*change slides automatically*/
 const slideInterval = setInterval(() => {
+  changeSlides(1);
+}, 3000);
+
+/*carousel goes back to slide 1 after last preview & the automatic slide scroll stops if arrow is clicked*/
+const changeSlides = direction => {
   const slideWidth = slides.clientWidth;
   const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
-  slidesContainer.scrollLeft = (slidesContainer.scrollLeft + slideWidth) % (maxScrollLeft + slideWidth);
-}, 4000);
+  slidesContainer.scrollLeft = (slidesContainer.scrollLeft + direction * slideWidth) % (maxScrollLeft + slideWidth);
+  clearInterval(slideInterval);
+};
+
 
 
 
