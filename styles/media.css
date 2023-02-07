@@ -71,9 +71,6 @@
         height: 300px;
     }
 
-    .goback {
-        font-size: 23px;
-    }
 
     .post-info {
         margin-top: 20px;
@@ -237,7 +234,6 @@
         width: 120px;
         height: 50px;
         margin-left: 10px;
-        margin-top: 20px;
     }
 
     .navigation {
@@ -374,6 +370,7 @@
         font-size: 15px;
     }
 
+
     .discover svg {
         width: 40px;
     }
@@ -446,7 +443,6 @@
         background-color: var(--background-color1);
         color: white;
         margin-right: 20px;
-        margin-top: 20px;
         border: none;
     }
 

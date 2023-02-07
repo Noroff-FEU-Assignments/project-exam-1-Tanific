@@ -98,6 +98,11 @@ footer p {
 }
 
 
+nav {
+    margin-top: 40px;
+}
+
+
 .cta {
     color: white;
     background-color: var(--background-color1);
