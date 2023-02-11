@@ -1,8 +1,5 @@
 const postWrapper = document.querySelector(".post-info");
 const activeBreadcrumb = document.querySelector(".activeBreadcrumb");
-const modal = document.getElementById("myModal");
-const modalImg = document.getElementById("img01");
-const postImg = document.querySelector(".post-img");
 const queryString = document.location.search;
 
 const params = new URLSearchParams(queryString);
@@ -47,14 +44,15 @@ function createHTML(details) {
         </div>
     `;
 
+const modal = document.getElementById("myModal");
+const modalImg = document.getElementById("img01");
+const postImg = document.querySelector(".post-img");
 
-/*image modal - image gets enlarged when clicked */
     postImg.addEventListener("click", function() {
         modal.style.display = "flex";
         modalImg.src = postImg.src;
     });
 
-/* image modal disappears when clicked outside of the enlarged image */
     window.addEventListener("click", function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
