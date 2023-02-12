@@ -1,19 +1,16 @@
 body {
     background: no-repeat center 70% url("../images/contactfish.jpg");
     background-size: cover;
-    height: 100vh;
-    overflow: hidden;
-
 }
 
 body section {
     display: flex;
     flex-direction: column;
-    height: 65vh;
     justify-content: center;
     color: white;
     width: 50vw;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
