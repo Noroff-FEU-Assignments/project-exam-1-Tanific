@@ -1,4 +1,4 @@
-/*hamburger menu mobile*/
+/*hamburger menu mobile, rotate on click, rotate back when closed*/
 let rotate = false;
 
 function menuButton() {

@@ -26,7 +26,7 @@ async function getPosts(url) {
 }
 getPosts(discoverOceanURL);
 
-/* slider buttons. if clicked it will clear the automatic slider interval. it also makes the prev and next button re-start the loop of slides if the end is reached*/
+/* slider buttons. if clicked it will clear the automatic slider interval. slider restarts at slide 1 if last preview is reached*/
 nextButton.addEventListener("click", () => {
   const slideWidth = slides.clientWidth;
   const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;
@@ -50,7 +50,8 @@ prevButton.addEventListener("click", () => {
   clearInterval(slideInterval);
 });
 
-/*change slides automatically & make the slider return to slide 1 after visiting the last slide*/
+
+/*change slides automatically*/
 const slideInterval = setInterval(() => {
   const slideWidth = slides.clientWidth;
   const maxScrollLeft = slidesContainer.scrollWidth - slidesContainer.clientWidth;

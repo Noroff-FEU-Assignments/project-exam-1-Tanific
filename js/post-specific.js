@@ -44,6 +44,8 @@ function createHTML(details) {
         </div>
     `;
 
+
+/*image modal */
 const modal = document.getElementById("myModal");
 const modalImg = document.getElementById("img01");
 const postImg = document.querySelector(".post-img");
