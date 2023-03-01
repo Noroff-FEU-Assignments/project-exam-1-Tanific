@@ -19,6 +19,7 @@ These pages are included in this site:
 
 - HTML
 - CSS
+- Javascript
 
 ## Contact
 Get in touch with me!
