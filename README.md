@@ -21,6 +21,9 @@ These pages are included in this site:
 - CSS
 - Javascript
 
+## Live site
+[Link to live site!](https://discoverourocean.netlify.app)
+
 ## Contact
 Get in touch with me!
 
