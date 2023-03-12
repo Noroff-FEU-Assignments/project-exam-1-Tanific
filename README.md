@@ -21,6 +21,13 @@ These pages are included in this site:
 - CSS
 - Javascript
 
+## Installing
+
+Clone the repo: 
+```
+git clone https://github.com/Noroff-FEU-Assignments/project-exam-1-Tanific.git
+```
+
 ## Live site
 [Link to live site!](https://discoverourocean.netlify.app)
 
