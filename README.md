@@ -5,7 +5,7 @@ This was a project exam I created through my Front-End development course at Nor
 
 ## Description
 
-This site is aimed to be a blog site for ocean related topics. It is made fetching data from a WordPress API. It contains a slider carousel and parallax scroll effects. The contact page has error validation. Breadcrumbs are also dynamic. 
+This site is aimed to be a blog site for ocean related topics. It is made fetching data from a WordPress REST API. It contains a slider carousel and parallax scroll effects. The contact page has error validation. Breadcrumbs are also dynamic. 
 
 These pages are included in this site:
 
