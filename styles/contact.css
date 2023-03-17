@@ -1,6 +1,7 @@
 body {
     background: no-repeat center 70% url("../images/contactfish.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
 body section {
